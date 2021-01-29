@@ -1,25 +1,22 @@
-using System;
 using System.Collections.Generic;
-using Xunit;
-using Aave;
-using Nethereum.Web3;
 using System.Threading.Tasks;
-using System.Numerics;
+using NAave.Controllers.PriceOracle;
 using NAave.Controllers.ProtocolDataProvider;
-using NAave.Models.ProtocolDataProvider;
+using Nethereum.Web3;
+using Xunit;
 
-namespace Aave.Test
+namespace NAave.Test
 {
     public class ProtocolDataProviderTest
     { 
         public List<string> StableCoins = new List<string> { "0x6b175474e89094c44da98b954eedeac495271d0f", "0xdac17f958d2ee523a2206206994597c13d831ec7", };
 
-        public ProtocolDataProviderService ProtocolData { get; set; } = new ProtocolDataProviderService(new Web3("https://mainnet.infura.io/v3/"), "0x057835Ad21a177dbdd3090bB1CAE03EaCF78Fc6d");
+        public ProtocolDataProviderService ProtocolData { get; set; } =
+            new Aave(new Web3("https://mainnet.infura.io/v3/")).ProtocolDataProvider();
 
         [Fact]
         public async Task AddressesProviderQueryAsyncTest()
         {
-
             var result = await ProtocolData.AddressesProviderQueryAsync();
             Assert.Equal("0xb53c1a33016b2dc2ff3653530bff1848a515c8c5", result);
         }

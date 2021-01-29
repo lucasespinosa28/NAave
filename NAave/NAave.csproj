@@ -8,6 +8,7 @@
     <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
     <Company />
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/lucasespinosa28/NAave/</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
