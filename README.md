@@ -1,6 +1,4 @@
-# NAave
-# NChainlink [![NuGet](https://img.shields.io/nuget/v/NAave)]https://www.nuget.org/packages/NAave/) ![License](https://img.shields.io/github/license/lucasespinosa28/NChainlink)
-
+# NChainlink [![NuGet](https://img.shields.io/nuget/v/NAave)](https://www.nuget.org/packages/NAave/)
 NAave a library made for Nethereum to help work with Aave price oracle
 
 ## How to use NChainlink 
