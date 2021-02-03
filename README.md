@@ -1,8 +1,7 @@
 # NAave
-Library to accesses Aave price feed oracle using Nethereum
-# NChainlink [![NuGet](https://img.shields.io/nuget/v/NChainlink)](https://www.nuget.org/packages/NChainlink/) ![License](https://img.shields.io/github/license/lucasespinosa28/NChainlink)
+# NChainlink [![NuGet](https://img.shields.io/nuget/v/NAave)]https://www.nuget.org/packages/NAave/) ![License](https://img.shields.io/github/license/lucasespinosa28/NChainlink)
 
-NChainlink a library made for Nethereum to help work with chainlink smart contract 
+NAave a library made for Nethereum to help work with Aave price oracle
 
 ## How to use NChainlink 
 #### Basic example
